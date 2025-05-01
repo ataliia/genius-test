@@ -11,6 +11,10 @@
   background-position: center top;
   background-size: cover;
 
+  @media screen and (min-width: $bp-desktop) {
+    padding: 272px 0;
+  }
+
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -21,10 +25,6 @@
         rgba(18, 18, 17, 0) 100%
       ),
       url('../imeges/hero-section-background@2x.jpg');
-  }
-
-  @media screen and (min-width: $bp-desktop) {
-    padding: 272px 0;
   }
 
   &__title {

@@ -25,6 +25,10 @@
     }
     &:focus::placeholder {
       color: var(--color-primary-dark);
+
+      @media screen and (min-width: $bp-tablet) {
+        padding: 16px 42px;
+      }
     }
   }
 }
